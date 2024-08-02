@@ -1,3 +1,5 @@
+//Author: Mohamed Tarek (Edges For Training)
+
 #ifndef TM4C123GH6PM_REGISTERS
 #define TM4C123GH6PM_REGISTERS
 
