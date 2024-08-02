@@ -1,0 +1,12 @@
+A generic NVIC Driver that's compatible with ARM Cortex M4,M3.
+Functions:-
+1-void NVIC_EnableIRQ(NVIC_IRQType IRQ_Num);
+2-void NVIC_DisableIRQ(NVIC_IRQType IRQ_Num);
+3-void NVIC_SetPriorityIRQ(NVIC_IRQType IRQ_Num, NVIC_IRQPriorityType IRQ_Priority);
+4-void NVIC_EnableException(NVIC_ExceptionType Exception_Num);
+5-void NVIC_DisableException(NVIC_ExceptionType Exception_Num);
+6-void NVIC_SetPriorityException(NVIC_ExceptionType Exception_Num, NVIC_ExceptionPriorityType Exception_Priority);
+each function contains description before it in the Source files
+***Important***
+In order to the wanted function to work you need to call the "Enable_Exceptions();" macro to run IRQs
+and "Enable_Faults();" to run Faults
